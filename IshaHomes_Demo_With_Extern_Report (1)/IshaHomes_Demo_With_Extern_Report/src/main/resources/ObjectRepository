@@ -1,0 +1,6 @@
+livechat.close=//b[normalize-space()='-']
+menu.completedProjects=//li[@id='menu-item-25810']//a[contains(@class,'nav-link')][normalize-space()='Completed Projects']
+Url=https://ishahomes.com/
+completed.projects.images=//img[contains(@class,'wp-post-image')]
+completedProjects.cards=//div[@id='module_properties']/div[contains(@class,'item-listing-wrap')]
+CompletedProjectUrl=https://ishahomes.com/completed-projects/

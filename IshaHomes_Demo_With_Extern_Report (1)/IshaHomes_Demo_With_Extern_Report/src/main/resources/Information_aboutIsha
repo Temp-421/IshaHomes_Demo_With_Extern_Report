@@ -1,0 +1,26 @@
+
+
+
+
+/*
+ObjectRepository : Centralises all Locators in One place
+if a loactor changes edit only this file
+-----------------------------------------------------------------------------------------------
+ObjectReader : Reads ObjectRepository File at runtime and return the locators string for any given Key
+Loads the file once (Static block )
+-----------------------------------------------------------------------------------------------
+BrowserImp : Handles everything related to launching and Closing the browser.No test logic lives here
+------------------------------------------------------------------------------------------------
+Open the URL and maximises
+----------------------------
+page Object model.class Evey user action on the Isha Home Site is method is here
+-------------------------------------------------------------------------------------
+IshaHomes  : The actual TestNg test class it only calls One mtd from Other layer - it never find elements itself Users
+@BeforeTest @Test @AfterTest
+@Test calls page mtd and add aseertion
+-----------------------------------------------------------------------------------------
+Landing Page all UI actions
+Test class Test flow
+BrowserImp browser setup
+
+*/

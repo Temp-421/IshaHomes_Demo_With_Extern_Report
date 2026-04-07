@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="IshaHomes_Demo_Final(failed)">
+    <classes>
+      <class name="tests.IshaHomeTest">
+        <methods>
+          <include name="countCompletedProjects"/>
+          <include name="ClickOnContactUs"/>
+          <include name="verifyEmailDetails"/>
+          <include name="ScrollDown"/>
+          <include name="ClickOnCompleterProject"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="verifyCompletedProject"/>
+        </methods>
+      </class> <!-- tests.IshaHomeTest -->
+    </classes>
+  </test> <!-- IshaHomes_Demo_Final(failed) -->
+</suite> <!-- Failed suite [Default Suite] -->

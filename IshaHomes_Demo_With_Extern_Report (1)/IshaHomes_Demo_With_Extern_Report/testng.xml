@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="C:/Users/2478588/OneDrive - Cognizant/Desktop/Interim_Project/IshaHomes_Demo/src/test/java/tests/IshaHomeTest.java">
+        <classes>
+            <class name="tests.IshaHomeTest">
+                <methods>
+                    <include name="verifyCompletedProject"/>
+                    <include name="ClickOnCompleterProject"/>
+                    <include name="countCompletedProjects"/>
+                    <include name="ScrollDown"/>
+                    <include name="ClickOnContactUs"/>
+                    <include name="verifyEmailDetails"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
